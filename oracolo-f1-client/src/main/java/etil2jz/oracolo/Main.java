@@ -10,7 +10,7 @@ public class Main {
 	private static final Logger logger = LogManager.getLogger(Main.class);
 
 	public static void main(String[] args) {
-		logger.info("Démarrage de Oracolo F1");
+		logger.info("Démarrage de Oracolo F1 - Client");
 		FlatDarkLaf.setup();
 		SwingUtilities.invokeLater(LoginWindow::showUI);
 	}
